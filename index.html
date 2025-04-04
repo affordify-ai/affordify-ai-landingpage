@@ -29,6 +29,40 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+ 
+  .div-block-x{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .div-block-6 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.1rem;
+  }
+
+  .text-size-medium {
+    font-weight: 600;
+    font-size: 32px;
+  }
+
+  .image-11 {
+    height: auto;
+    width: 100px;
+  }
+
+  @media (max-width: 767px) {
+    .div-block-6 {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .image-11 {
+      width: 70px;
+    }
+  }
 </style>
 </head>
 <body>
@@ -396,8 +430,12 @@ margin: 0rem !important;
                     <div class="heading-2">Step 1</div>
                     <div data-w-id="cfa46428-026c-2b1e-26b1-fc82afe86939" class="heading-6">
                       <div class="div-block-6">
-                        <div class="text-weight-semibold text-size-medium">Connect Your Financial Accounts Securely with</div>
-                        <div class="div-block-7"><img src="images/Visa-black.svg" loading="lazy" alt="" class="image-11"></div>
+                        <div class="text-weight-semibold text-size-medium">
+                          Connect Your Financial Accounts Securely with
+                        </div>
+                        <div class="div-block-x">
+                          <img src="images/Visa-black.svg" loading="lazy" alt="Visa logo" class="image-11" />
+                        </div>
                       </div>
                       <div class="faq_icon">
                         <div class="icon-1x1-xxsmall w-embed"><svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewbox="0 0 8 8">
