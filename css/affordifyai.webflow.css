@@ -456,6 +456,7 @@ figcaption {
   font-family: var(--font-secondary);
   color: var(--text-primary);
   align-self: auto;
+  width: 90%;
   font-size: 18px;
   line-height: 140%;
 }
@@ -537,7 +538,9 @@ figcaption {
 }
 
 .text-weight-semibold.text-size-medium {
-  width: 90%;
+  flex: 1;
+  align-self: auto;
+  width: auto;
 }
 
 .text-align-left {
@@ -2143,6 +2146,7 @@ figcaption {
 }
 
 .heading-4 {
+  width: 100%;
   margin-top: 0;
   margin-bottom: 0;
   font-size: 60px;
@@ -2937,6 +2941,32 @@ figcaption {
   text-align: center;
   font-size: 14px;
   line-height: 16px;
+}
+
+.div-block-6 {
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 91%;
+  display: flex;
+}
+
+.image-11 {
+  width: 100px;
+  margin-left: 0;
+}
+
+.div-block-7 {
+  margin-left: -98px;
+  padding-bottom: 3px;
+}
+
+.div-block-8 {
+  grid-column-gap: 24px;
+  grid-row-gap: 24px;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
 }
 
 @media screen and (max-width: 991px) {
@@ -4632,15 +4662,6 @@ figcaption {
   grid-template-columns: 1fr;
 }
 
-#w-node-c5516d98-0025-c9f2-6277-654d92780f1d-1e905893 {
-  grid-area: span 1 / span 1 / span 1 / span 1;
-}
-
-#w-node-_886726c5-3298-285a-7e12-50a476770427-1e905893 {
-  grid-template-rows: auto auto auto;
-  grid-template-columns: 1fr;
-}
-
 #w-node-_9feb75d0-fa70-340c-6433-16542ec6d9ff-1e905893 {
   grid-template-rows: auto auto auto auto;
   grid-template-columns: 1fr;
@@ -4651,7 +4672,11 @@ figcaption {
   grid-template-columns: 1fr;
 }
 
-#w-node-ad77e8f3-613d-4a00-09cd-1582c9f31554-1e905893, #w-node-_78e9ce9d-6ecc-0592-4c20-df69ed8967b6-1e905893, #w-node-d612d4cc-f3c3-36fa-830c-d111f6227992-1e905893 {
+#w-node-c5516d98-0025-c9f2-6277-654d92780f1d-1e905893 {
+  grid-area: span 1 / span 1 / span 1 / span 1;
+}
+
+#w-node-_886726c5-3298-285a-7e12-50a476770427-1e905893, #w-node-ad77e8f3-613d-4a00-09cd-1582c9f31554-1e905893, #w-node-_78e9ce9d-6ecc-0592-4c20-df69ed8967b6-1e905893, #w-node-d612d4cc-f3c3-36fa-830c-d111f6227992-1e905893 {
   grid-template-rows: auto auto auto;
   grid-template-columns: 1fr;
 }
